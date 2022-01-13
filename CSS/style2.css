@@ -1,0 +1,164 @@
+html{
+  -webkit-background: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:15px;
+  line-height:1.5;
+  padding:0;
+  margin:0;
+  background-color:#fff;
+
+}
+.container2{
+  width:500px;
+  height:400px;
+  text-align:center;
+  background-color:rgba(52,73,94,0.7);
+  border-radius:4px;
+  margin:0 auto;
+  margin-top:150px;
+}
+.container2 img{
+  width:120px;
+  height:120px;
+  margin-top:-60px;
+  margin-bottom:30px;
+}
+input[type="text"] , input[type="password"] {
+  height:45px;
+  width:300px;
+  font-size: 18px;
+  margin-bottom:20px;
+  background-color: #fff;
+  padding-left:20px;
+}
+.btn-login{
+  padding:15px 25px;
+  color: #fff;
+  background-color:#e8491d;
+  border:none;
+  border-radius:4px;
+  border-bottom: 4px solid black;
+}
+a {
+  text-decoration: none;
+  color:white;
+  font-family: sans-serif;
+}
+a:hover{
+  color:coral;
+}
+
+/* header */
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:16px;
+}
+
+
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+ header #branding{
+   float:left;
+ }
+
+ header #branding h1{
+   margin:0;
+ }
+
+ header nav{
+   float:right;
+   margin-top: 10px;
+ }
+
+ header .highlight, header .current a{
+   color:#e8491d;
+   font-weight:bold;
+ }
+
+ header a:hover{
+   color:#cccccc;
+   font-weight:bold;
+ }
+ /* Global */
+.container{
+ width:80%;
+ margin:auto;
+ overflow:hidden;
+}
+
+ul{
+margin:0;
+padding:0
+}
+
+.button_1{
+height:38px;
+background:#e8491d;
+border:0;
+padding-left: 20px;
+padding-right: 20px;
+color:#ffffff;
+}
+  a:link {
+  text-decoration: none;
+}
+  a{
+    color:black;
+  }
+  footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:#e8491d;
+    text-align: center;
+  }
+ /* Media Queries */
+ @media(max-width:768px){
+   header #branding,
+   header nav,
+   header nav li,
+   #login h1,
+   #login form,
+   #boxes .box,
+   article#main-col{
+     float:none;
+     text-align:center;
+     width:100%;
+   }
+
+   header{
+     padding-bottom:20px;
+   }
+   #showcase h1{
+     margin-top:40px;
+   }
+   #login button{
+     display:block;
+     width:100%
+   }
+   #login form input[type="email"] form input[type="Password"]{
+     width:100%;
+     margin-bottom:5px;
+   }
+ }
